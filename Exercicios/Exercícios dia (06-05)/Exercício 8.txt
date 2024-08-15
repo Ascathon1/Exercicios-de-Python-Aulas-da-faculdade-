@@ -1,0 +1,15 @@
+while True:
+	print ('Alistamento do Exercito 2024')
+	print ('Insira seus dados: ')
+	cad=(input('Deseja se cadastrar? (s/n): '))
+	if cad =='s':
+		pass
+	else:
+		break
+	nome= (input('Digite seu nome: '))
+	idade= int(input('Digite a sua idade: '))
+	if idade >=18:
+		print('Você é obrigado a se alistar!')
+		break
+	else:
+		break

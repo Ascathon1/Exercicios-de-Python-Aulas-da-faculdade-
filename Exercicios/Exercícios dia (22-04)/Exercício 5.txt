@@ -1,0 +1,40 @@
+import random
+
+vitoria= 0
+derrota= 0
+empate=0
+
+print ('Jogo de Pedra, Papel ou Tesoura!!')
+
+jogadas= int(input('Deseja jogar quantas vezes?: '))
+while jogadas > 0:
+	jog= (input('Escolha Pedra, Papel ou Tesoura: '))
+
+	comp= random.choice(['pedra', 'papel', 'tesoura'])
+	print (f'Você escolheu {jog}.')
+	print(f'O computador escolheu {comp}.')
+
+	if jog == comp:
+		print ('Deu empate!')
+		jogadas -=1
+		empate +=1
+	elif jog == 'pedra' and comp == 'tesoura':
+		print ('Você venceu!')
+		jogadas -=1
+		vitoria +=1
+	elif jog == 'papel' and comp == 'pedra':
+		print ('Você venceu!')
+		jogadas -=1
+		vitoria +=1
+	elif jog == 'tesoura' and comp == 'papel':
+		print ('Você venceu!')
+		jogadas -=1
+		vitoria +=1
+	else:
+		print ('Você perdeu!')
+		jogadas -=1
+		derrota +=1
+		
+	
+print (f'FIM DE JOGO !! Você ganhou {vitoria} vezes, Você perdeu {derrota} vezes e Empatou {empate} vezes!!')
+		

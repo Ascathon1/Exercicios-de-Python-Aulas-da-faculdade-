@@ -1,0 +1,3 @@
+print ('Estrutura de repetição permite que uma sequência de ações ao longo do algoritmo seja executada repetidamente, até que uma determinada condição de interrupção seja satisfeita.')
+
+print('(For)Significa "para",(while)Significa "enquanto", (while True)Significa "enquanto Verdadeiro".')

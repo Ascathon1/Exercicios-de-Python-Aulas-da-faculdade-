@@ -1,0 +1,15 @@
+import random
+numeros= list()
+cont= 0
+while cont < 5:
+	num= int(input('Digite um numero: '))
+	numeros.append(num)
+	if numeros:
+		cont +=1
+	for c in numeros:
+		print(c)
+for aleatorio in range(2):
+	aleatorio=random.choice(numeros)
+	numeros.remove(aleatorio)
+print (numeros)
+print ('Quantidade de elementos na lista: ', len(numeros))

@@ -1,0 +1,2 @@
+seu_nome= 'Vinicius'
+print (f'Olá {seu_nome}')

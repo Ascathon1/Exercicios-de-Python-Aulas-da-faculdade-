@@ -1,0 +1,6 @@
+nome= str(input('Digite o nome do aluno: '))
+nota= int(input('Digite sua nota: '))
+if nota >=7:
+	print('Você foi aprovado!!')
+else:
+	print('Você foi reprovado!!')

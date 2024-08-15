@@ -1,0 +1,1 @@
+print('As variaveis do Python são: String(str) que armazena caracteres, Inteira(int) que armazena numeros inteiros, Float que armazena numeros quebrados e Bool que armazena condições logicas (True/False)')

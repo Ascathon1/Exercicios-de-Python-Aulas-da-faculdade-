@@ -1,0 +1,7 @@
+rep= 3
+while rep>=0:
+	nome=(input('Digite seu nome: '))
+	idade=(input('Digite sua idade: '))
+	rg=(input('Digite seu RG: '))
+	rep -=1
+	print(f'Seu nome é: {nome}, Idade: {idade}, RG: {rg}.')

@@ -1,0 +1,8 @@
+nom= list()
+ida= list()
+nome=(input('Digite seu nome: '))
+idade=(input('Digite sua idade: '))
+nom.append(nome)
+ida.append(idade)
+print (nom[0])
+print (ida[0])

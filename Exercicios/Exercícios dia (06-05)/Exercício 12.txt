@@ -1,0 +1,6 @@
+elementos=['Agua', 'Terra' , 'Fogo', 'Ar']
+print (elementos)
+print(elementos[0])
+print(elementos[1])
+print(elementos[2])
+print(elementos[3])

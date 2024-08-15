@@ -1,0 +1,9 @@
+nasc=[2, 1, 0, 9, 1, 9, 7, 9]
+nasc_1= 0
+
+for c in range(4, 8):
+	nasc_1= nasc_1 * 10 + nasc[c]
+	
+idade= 2024 - (nasc_1)
+
+print (f'O professor nasceu em {nasc_1} então ele tem {idade} anos!!')

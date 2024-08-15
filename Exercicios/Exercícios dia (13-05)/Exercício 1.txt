@@ -1,0 +1,3 @@
+nasc=[2, 1, 0, 9, 1, 9, 7, 9]
+calc= (sum(nasc)) / (len(nasc))
+print (calc)

@@ -1,0 +1,1 @@
+print ('As operaçoes aritmeticas que podemos usar no Python é: Adição(+), Subtração (-), Multiplicação (*), Divisão (/), Potencia (**), Divisão inteira (//), Modulo(%)')
